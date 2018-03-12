@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
-	function browserRedirect() {
+	function browserRedirect(){
     var sUserAgent = navigator.userAgent.toLowerCase();
     var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
     var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
@@ -12,9 +12,10 @@
     var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
     var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
     if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
-        window.location.href="http://blog.csdn.net/tatebrownjava";
-    } else {
-        window.location.href="http://m.blog.csdn.net/blog/index?username=tatebrownjava";
+        window.location.href="http://blog.csdn.net/tatebrwonjava";
+    } 
+    else {
+        window.location.href="http://m.blog.csdn.net/blog/index?username=tatebrwonjava";
     }
 }
 browserRedirect();
