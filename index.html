@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
 <script charset="utf-8">
 	function browserRedirect(){
     var sUserAgent = navigator.userAgent.toLowerCase();
@@ -18,9 +22,9 @@
         window.location.href="http://m.blog.csdn.net/blog/index?username=tatebrwonjava";
     }
 }
-browserRedirect();
 </script>
 <body>
-<p>这是githubpages搭建的个人站点。如果无法跳转，请更换chrome浏览器。</p>
+<p>这是githubpages搭建的个人站点。点击下面按钮跳转,如果无法跳转，请更换chrome浏览器。</p>
+<input type="button" value="按下跳转到个人博客" onclick=browserRedirect()>
 </body>
 </html>
